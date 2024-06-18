@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/index1.html">
+</head>
+
+<body class="bg-gray-100">
+
+    <!-- Header -->
+    <header class="header-nav bg-white shadow">
+        <div class="container mx-auto px-6 py-3">
+            <nav class="flex justify-between items-center">
+                <!-- Mobile menu button -->
+                <div class="sm:hidden">
+                    <button class="text-gray-700 focus:outline-none" id="menu-button">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+                        </svg>
+                    </button>
+                </div>
+                <!-- Nav links -->
+                <div class="nav-links hidden sm:flex items-center space-x-1">
+                    <span class="text-pink-400"><a href="#" class="py-2 px-3">Electronics</a></span>
+                    <a href="#" class="py-2 px-3 text-gray-700">Sports</a>
+                    <a href="#" class="py-2 px-3 text-gray-700">Home</a>
+                    <a href="#" class="py-2 px-3 text-gray-700">Vehicles</a>
+                    <a href="#" class="py-2 px-3 text-gray-700">Books</a>
+                    <a href="#" class="py-2 px-3 text-gray-700">Clothes</a>
+                    <a href="#" class="py-2 px-3 text-gray-700">Bed & Bath</a>
+                    <a href="#" class="py-2 px-3 text-gray-700">Tabletop</a>
+                    <a href="#" class="py-2 px-3 text-gray-700">Furniture</a>
+                    <a href="#" class="py-2 px-3 text-gray-700">New Arrivals</a>
+                </div>
+            </nav>
+            <!-- Mobile menu -->
+            <div class="mobile-menu hidden sm:hidden" id="mobile-menu">
+                <div class="flex flex-col items-start space-y-1 mt-3">
+                    <span class="text-pink-400"><a href="#" class="py-2 px-3">Electronics</a></span>
+                    <a href="#" class="py-2 px-3 text-gray-700">Sports</a>
+                    <a href="#" class="py-2 px-3 text-gray-700">Home</a>
+                    <a href="#" class="py-2 px-3 text-gray-700">Vehicles</a>
+                    <a href="#" class="py-2 px-3 text-gray-700">Books</a>
+                    <a href="#" class="py-2 px-3 text-gray-700">Clothes</a>
+                    <a href="#" class="py-2 px-3 text-gray-700">Bed & Bath</a>
+                    <a href="#" class="py-2 px-3 text-gray-700">Tabletop</a>
+                    <a href="#" class="py-2 px-3 text-gray-700">Furniture</a>
+                    <a href="#" class="py-2 px-3 text-gray-700">New Arrivals</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+
+    <!-- Main Content -->
+    <main class="hero-section my-8 grid grid-cols-1  text-center flex flex-col items-center justify-center ">
+        
+    
+        <div class="main-content container mx-auto px-6 bg-stone-50 grid-cols-6">
+            <h3 class="text-gray-700 text-5xl mt-28 font-bold tracking-widest">Our
+                <span class="text-pink-400"> Latest </span>
+                <span> Products</span>
+            </h3>
+            <button type="button" class="text-white border bg-pink-400 rounded-full">View All</button>
+        </div>
+        <div class="main-content-2 container mx-auto px-6 bg-stone-50 grid-cols-6">
+        </div>
+
+    </main>
+
+    <section>
+        <div class="hero-section-2">
+            <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-10 gap-8 ml-5 sm:ml-10 md:ml-20 p-4 sm:p-6 md:p-8">
+                <img class="p-4 sm:p-4" src="/public/bag-1.png" alt="">
+                <img class="p-4 sm:p-4" src="/public/bag-2.png" alt="">
+                <img class="p-4 sm:p-4" src="/public/ball.png" alt="">
+                <img class="p-4 sm:p-4" src="/public/woo.png" alt="">
+                <img class="p-4 sm:p-4" src="/public/capricorn.png" alt="">
+                <img class="p-4 sm:p-4" src="/public/walmart.png" alt="">
+                <img class="p-4 sm:p-4" src="/public/catcollar.png" alt="">
+                <img class="p-4 sm:p-4" src="/public/B.png" alt="">
+                <img class="p-4 sm:p-4" src="/public/cricketer.png" alt="">
+
+            </div>
+
+    </section>
+
+    <div class="my-12 mr-12 flex justify-end">
+
+        <select id="simple-dropdown" name="options" class="p-3 border-solid border-black">
+            <option value="option1"><b> Sort By </b> </option>
+            <option value="option2">Rating</option>
+            <option value="option3">Price: Low to High</option>
+            <option value="option4">Price: High to Low</option>
+        </select>
+
+    </div>
+
+    <section class="my-8">
+
+
+        <aside class="w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-4 gap-4 sm:p">
+            <div class="bg-gray-800 shadow rounded-lg p-4 sm:h-4/5">
+                <h4 class="font-medium text-white mb-4 mt-8">Categories</h4>
+                <ul class="space-y-2">
+                    <li><a href="#" class="text-gray-300">Tables</a></li>
+                    <li><a href="#" class="text-gray-300">Lamps</a></li>
+                    <li><a href="#" class="text-gray-300">Chairs</a></li>
+                    <li><a href="#" class="text-gray-300">Sofas</a></li>
+                </ul>
+                <h4 class="font-medium text-gray-300 mt-8 mb-4">Filter by Colors</h4>
+                <div class="flex space-x-2">
+                    <span class="w-6 h-6 rounded-full bg-gray-800 inline-block"></span>
+                    <span class="w-6 h-6 rounded-full bg-yellow-500 inline-block"></span>
+                    <span class="w-6 h-6 rounded-full bg-blue-500 inline-block"></span>
+                    <span class="w-6 h-6 rounded-full bg-green-500 inline-block"></span>
+                    <span class="w-6 h-6 rounded-full bg-purple-500 inline-block"></span>
+                </div>
+                <h4 class="font-medium text-gray-300 mt-8 mb-4">Price Range</h4>
+                <input type="range" class="w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer">
+                <div class="flex justify-between mt-4 text-gray-300">
+                    <div>$0</div>
+                    <div>$1000</div>
+                </div>
+                <div class="flex justify-between mt-12 text-gray-300">
+                    <div>OTHERS</div>
+                    <div>+</div>
+                </div>
+            </div>
+            <div class="mt-6">
+                <div class="product-card p-4 " data-product-id="1"  data-product-name="Product Name">
+                    <img src="/public/recliner-chair.jpeg" alt="Product Image" class="h-40 w-full object-cover">
+                    <h3 class="mt-2 text-gray-700">Designers Chair GT Designed By Carry Gali - The Collection</h3>
+                    <p class="mt-1 text-gray-500">Original Price $130</p>
+                    <p class="text-teal-500">$120</p>
+                    <button id="viewProduct" class="mt-2 text-md text-gray-800 bg-gray-300 px-2 py-1 rounded">View Product</button>
+                    <button id="addCart" class="mt-2 text-md text-gray-800 bg-gray-300 px-2 py-1 rounded">Add to Cart</button>
+                </div>
+                <div class="product-card p-4 mt-8">
+                    <img src="/public/vintage-bookshelf.jpeg" alt="Product Image" class="h-40 w-full object-cover">
+                    <h3 class="mt-2 text-gray-700">Designers Chair GT Designed By Carry Gali - The Collection</h3>
+                    <p class="mt-1 text-gray-500">Original Price $130</p>
+                    <p class="text-teal-500">$120</p>
+                    <button class="mt-2 text-md text-gray-800 bg-gray-300 px-2 py-1 rounded">View Product</button>
+                    <button id="addCart" class="mt-2 text-md text-gray-800 bg-gray-300 px-2 py-1 rounded">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="mt-6">
+                <div class="product-card p-4">
+                    <img src="/public/bedroom-dresser.jpeg" alt="Product Image" class="h-40 w-full object-cover">
+                    <h3 class="mt-2 text-gray-700">Designers Chair GT Designed By Carry Gali - The Collection</h3>
+                    <p class="mt-1 text-gray-500">Original Price $130</p>
+                    <p class="text-lime-300">$120</p>
+                    <button class="mt-2 text-md text-gray-800 bg-gray-300 px-2 py-1 rounded">View Product</button>
+                    <button id="addCart" class="mt-2 text-md text-gray-800 bg-gray-300 px-2 py-1 rounded">Add to Cart</button>
+                </div>
+                <div class="product-card p-4 mt-8">
+                    <img src="/public/sofa.jpeg" alt="Product Image" class="h-40 w-full object-cover">
+                    <h3 class="mt-2 text-gray-700">Designers Chair GT Designed By Carry Gali - The Collection</h3>
+                    <p class="mt-1 text-gray-500">Original Price $130</p>
+                    <p class="text-lime-300">$120</p>
+                    <button class="mt-2 text-md text-gray-800 bg-gray-300 px-2 py-1 rounded">View Product</button>
+                    <button id="addCart" class="mt-2 text-md text-gray-800 bg-gray-300 px-2 py-1 rounded">Add to Cart</button>
+                </div>
+            </div>
+            
+            <div class="mt-6">
+                <div class="product-card p-4">
+                    <img src="/public/coffee-table.jpeg" alt="Product Image" class="h-40 w-full object-cover">
+                    <h3 class="mt-2 text-gray-700">Designers Chair GT Designed By Carry Gali - The Collection</h3>
+                    <p class="mt-1 text-gray-500">Original Price $130</p>
+                    <p class="text-teal-500">$120</p>
+                    <button class="mt-2 text-md text-gray-800 bg-gray-300 px-2 py-1 rounded">View Product</button>
+                    <button id="addCart" class="mt-2 text-md text-gray-800 bg-gray-300 px-2 py-1 rounded">Add to Cart</button>
+                </div>
+                <div class="product-card p-4 mt-8">
+                    <img src="/public/wooden-dining.jpeg" alt="Product Image" class="h-40 w-full object-cover">
+                    <h3 class="mt-2 text-gray-700">Designers Chair GT Designed By Carry Gali - The Collection</h3>
+                    <p class="mt-1 text-gray-500">Original Price $130</p>
+                    <p class="text-teal-500">$120</p>
+                    <button class="mt-2 text-md text-gray-800 bg-gray-300 px-2 py-1 rounded">View Product</button>
+                    <button id="addCart" class="mt-2 text-md text-gray-800 bg-gray-300 px-2 py-1 rounded">Add to Cart</button>
+                </div>
+            </div>
+        </aside>
+
+    </section>
+
+    <script src="/app.js"></script>
+
+</body>
+
+</html>

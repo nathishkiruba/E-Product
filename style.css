@@ -1,0 +1,41 @@
+.product-card {
+
+    border-radius: 0.5rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.06);
+}
+.hero-section span{
+    display: block;
+}
+.main-content-3 img:last-child{
+    margin: 0px 0px 0px 270px;
+}
+.main-content button{
+    padding: 8px 30px 8px 30px;
+}
+.hero-section-2 > div img:nth-child(2),.hero-section-2 > div img:nth-child(7),.hero-section-2 > div img:nth-child(5),.hero-section-2 > div img:nth-child(9){
+    background-color: rgb(165 243 252);
+}
+.hero-section-2 > div img:first-child,.hero-section-2 > div img:nth-child(8),.hero-section-2 > div img:nth-child(3),.hero-section-2 > div img:nth-child(4),.hero-section-2 > div img:nth-child(6){
+    background-color: rgb(209 213 219);
+}
+.hero-section{
+    background-image: url(/public/green-leaves-7362477_1920.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+@media only screen and (max-width:576px){
+    .main-content h3{
+        font-size: 16px;
+        margin-bottom: 20px;
+        
+    }
+}
+@media only screen and (max-width:576px){
+    button{
+        font-size: 10px;
+        margin-bottom: 20px;
+
+    }
+}
